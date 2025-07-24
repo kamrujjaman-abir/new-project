@@ -1,253 +1,78 @@
 
-
-/* header*/
-.header{
-    background-image: url('../img/Hero-bg.png');
+.text-gray{
+    color:#8987A1 ;
 }
 
-.buton{
-    margin: 35px 200px;
-    
+.text-gray-title{
+    color: #252432;
 }
 
 
-
-
-/* shard style*/
-span{
-     color: #47FF;
-
-     
-
+.bg-color{
+    color: #E95A08;
 }
-
-.text-center{
-    text-align: center;
+.color{
+    background-color: #E95A08;
 }
+/* header style*/
 
-/* nav styles*/
 
 
-nav ul{
+
+/* nav style*/
+.display{
     display: flex;
 }
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 50px 200px;
-
+.logo{
+   justify-content: space-between;
+   max-width: 1440px;
+   margin: 0 auto;
 }
-nav ul li{
+
+.nav-items{
     list-style: none;
-}
-.btn-pry{
-    background-color: #4E47FF;
-    color: #FFFFFF; 
-    font-weight: bold;
-    border: none;
-    font-size: 10px;
-    padding: 15px 20px;
-    border-radius: 5px;
-
+    margin-right: 30px;
 
 }
 
-
-/* banner style*/
-.banner{
-   align-items: center;
-   margin: 0 20px 0 300px;
-   
-}
-.banner-dec{
-    font-weight: bold;
-    font-size: 65px;
-
-}
-
-/* section style*/
-
-main{
-    background-color: #D6DDED;
-}
-.section-con{
-    width: 517px;
-    height: 203px;
-    gap: 23;
-}
-.section-title{
-    font-weight: bold;
-    font-size: 42px;
-    color: #252432;
-}
-
-.section-decc{
-    font-size: 24px;
-    color: #252432c8;
-}
-.section-pic{
-    border-radius: 48px;
-    width: 403px;
-    height: 328px;
-}
-
-.about{
-    display: flex;
-    justify-content: space-between;
-    margin: 30px 100px;
-    gap: auto;
-}
-
-
-.section-titless{
-    font-weight: bold;
-    color: #252432;
-    font-size: 42px;
-    margin-top: 147px;
-}
-
-/* div style*/
-.div-2{
-    
-    height: 45px;
-    font-size: 50px;
-    font-weight: bold;
-    align-items: center;
-    color: #252432;
-   margin-left: 10px;
-   padding-top: 166px;
-}
-.about-items-div{
-    display: flex;
-    justify-content: space-around;
-   
-}
-
-.item-title {
-    font-weight: bold;
-    font-size: 80px;
-
-}
-.item-description{
-    font-size: 20px;
-    color: #000000;
-    
-}
-
-.div-1{
-    background-color: #ff974761;
-    max-width: 50%;
-    text-align: center;
-    margin-left: 25%;
-    border-radius: 30px;
-}
-
-
-
-/* skill style*/
-.skill-containner{
-    display: flex;
-    gap: 44px;
-}
-
-.section-gap{
-    padding: 20px 0;
-    color: #000000;
-    width: 487px;
-    height: 22px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.section-title{
-    font-weight: bold;
-    font-size: 50px;
-
-}
-.section-con{
-    margin-top: 10px;
-    padding-top: 10px;
-}
-
-.section-imgg{
-    gap: 20;
-    border-radius: 14px;
-   margin:auto;
-   align-items: center;
-   max-width: 100%;
-   
-
-}
-.Resume{
-    background-color: #FFFFFF;
-    align-items: center;
-   padding: 100px;
-   margin: 10%;
-
-
-}
-
-.div-4{
-    text-align: center;
-    
-    
-}
-
-
-/* footer*/
-footer{
-    padding: 95px;
-    display: flex;
-    gap: 100px;
-    background-color: #D6DDED;
-
-}
-.footer-column{
-    width: 50%;
-
-}
- footer input[type="text"], footer input[type="email"], footer textarea{
-    height: 60px;
-    border-radius: 5px;
-    background-color: #FFFFFF;
-    width: 100%;
-    padding: 10px 20px;
-    margin-bottom: 24px;
-
-}
-
-
-
-.div-wd{
-    background-color: #FFFFFF;
-}
-
-
-.div-7{
-    color: #8987A1;
-    
-}
-
-
-.div-wd{
-   margin-left: 200px;
-    padding: 130px 120px;
-    align-items: center;
-    justify-content: center;
-
-}
-div ul li{
-    list-style: none;
-    margin-right: 40px;
-}
-div li a{
+.nav-link{
     text-decoration: none;
-    font-size: 20px;
+    font-weight: 500;
 
 }
-div ul{
-    display: flex;
- 
+
+.css-home{
+    font-weight: bold;
+}
+/*main style*/
+
+
+.title{
+    max-width: 1140px;
+    margin: auto;
+    text-align: center;
+}
+.text-coler{
+    color: white;
+}
+.team-img-container{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.margin-padding{
+    
+    justify-content: space-between;
+    padding: 10px;
+    
+
+}
+.img-aling{
+    text-align: center;
+}
+
+
+.img-contaner1, .img-contaner, button{
+    text-align: center;
+    width: 80%;
 }
